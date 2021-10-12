@@ -1,13 +1,21 @@
 @import 'breakpoint/stylesheets/breakpoint';
+
+@function is-number($value) {
+    @return type-of($value)=='number';
+}
+
 $theme-base: (#FF7315, #87D147, #FF2950);
 $upwork: #6fda44;
 $fiverr: #1dbf73;
 $whites: (#ffffff, #f1f1f1, #FAF4F2, #f9f9f9, #ffffff80, #e4dfdc);
 $blacks: (#111111, #222222, #333333, #4b4b4b, #a9a9a9, #22222280, #2222220d);
-$breaks: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
+$breaks: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px, xd: 1600px, xxd: 1900px);
 $ms: ('em', 'rem');
 $weights: ("thin": 100, "lit": 300, "reg": 400, "mid": 500, "bold": 600, "bolder": 700, "fat": 800, "xfat": 900);
-$tests:(round: ('border-radius'), font: ('font-size'), width: ('width'), height: ('height'), lh: ('line-height'));
+
+$tests:("round": ('border-radius'), 'font': ('font-size'), width: ('width'), height: ('height'), lh: ('line-height'), mrb: ('margin-bottom'), mre: ('margin-right'), mry: ('margin-top', 'margin-bottom'));
+
+$clss: (wid : ('width', '%', 1, 100, 10));
 
 html,
 body,
@@ -15,6 +23,64 @@ body,
     font-family: 'Poppins', sans-serif;
 
 
+}
+
+@each $cls,
+$props in $clss {
+
+    @each $media,
+    $px in $breaks {
+        .#{$cls} {
+
+            $step: nth($props, 5);
+            $from: ceil(nth($props, 3) /$step);
+            $through: ceil(nth($props, 4) /$step);
+            $unit: nth($props, 2);
+            $prop: nth($props, 1);
+
+            @if $px==0 {
+                @for $i from $from through $through {
+                    $i: $i * $step;
+
+                    &-#{$i} {
+                        #{$prop}: #{$i}#{unquote($unit)};
+                    }
+
+                }
+
+                &-auto {
+                    #{$prop}: auto;
+                }
+
+                &-unset {
+                    #{$prop}: unset;
+                }
+            }
+
+            @else {
+                @include breakpoint($px) {
+                    &-#{$media} {
+                        @for $i from $from through $through {
+                            $i: $i * $step;
+
+                            &-#{$i} {
+                                #{$prop}: #{$i}#{unquote($unit)};
+                            }
+
+                        }
+
+                        &-auto {
+                            #{$prop}: auto;
+                        }
+
+                        &-unset {
+                            #{$prop}: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @each $pref,
@@ -28,8 +94,13 @@ $prop in $tests {
                     &-#{$m} {
                         @for $i from 0 to 21 {
                             &-#{$i} {
-                                #{$prop}: #{$i * 0.25}#{$m};
+                                @each $prop_name in $prop {
+                                    #{$prop_name}: #{$i * 0.25}#{$m};
+                                }
+
                             }
+
+
                         }
                     }
                 }
@@ -43,7 +114,9 @@ $prop in $tests {
                             &-#{$m} {
                                 @for $i from 0 to 21 {
                                     &-#{$i} {
-                                        #{$prop}: #{$i * 0.25}#{$m};
+                                        @each $prop_name in $prop {
+                                            #{$prop_name}: #{$i * 0.25}#{$m};
+                                        }
                                     }
                                 }
                             }
