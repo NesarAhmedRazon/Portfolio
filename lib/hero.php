@@ -39,7 +39,7 @@
 
                     <div class="row my-4 g-3">
                         <div class="col-12 col-md-auto text-center">
-                            <a type="button"
+                            <a href="#" target="_self"
                                 class="bg-theme-3 btn font-md-em-3 px-4 round-em-2 shadow text-lh-10 w-100">Send
                                 Request</a>
                         </div>
