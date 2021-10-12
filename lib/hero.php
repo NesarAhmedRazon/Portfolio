@@ -11,9 +11,8 @@
                         developer.
                     </h1>
                     <p class="font-em-4 font-xl-em-3 font-xxl-em-4 font-lg-em-4 font-md-em-3 mb-5 me-lg-5 text-lh-7">
-                        Frontend
-                        developer based in
-                        Chuadanga, Bangladesh. I am coding with a clean and beautiful problem solving in mind.
+                        Frontend developer based in Chuadanga, Bangladesh. I am coding with a clean and beautiful
+                        problem solving in mind.
                     </p>
                     <div class="d-block d-md-table font-em-5 font-lg-em-3 font-lg-em-4 font-md-em-4 social w-100">
                         <div class="d-md-table-row">

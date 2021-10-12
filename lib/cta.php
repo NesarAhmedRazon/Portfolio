@@ -38,11 +38,10 @@
                         </div>
                         <div class="card-body text-center text-md-start">
                             <h5 class="card-title font-em-8 mb-3 text-bold">Glad to Help You!</h5>
-                            <p class="card-text font-em-4 font-xl-em-5 font-xxl-em-4 text-lh-8 text-lit">As a web
-                                developer, I'm very
-                                keen on learning
-                                new and
-                                pioneering technologies, programming languages, and development techniques.</p>
+                            <p class="card-text font-em-4 font-xl-em-5 font-xxl-em-4 text-lh-8 text-lit">
+                                As a web developer, I'm very keen on learning new and pioneering technologies,
+                                programming languages, and development techniques.
+                            </p>
                         </div>
                     </div>
                 </div>
