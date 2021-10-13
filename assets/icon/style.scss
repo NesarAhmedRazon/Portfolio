@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s9snen');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?s9snen#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?s9snen') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?s9snen') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?s9snen##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x5z33y');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x5z33y#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?x5z33y') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?x5z33y') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?x5z33y##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-gitlab {
+  &:before {
+    content: $icon-gitlab; 
+  }
+}
+.icon-stack-overflow {
+  &:before {
+    content: $icon-stack-overflow; 
+  }
+}
 .icon-git {
   &:before {
     content: $icon-git; 
@@ -39,13 +49,7 @@
 }
 .icon-messenger {
   &:before {
-    content: $icon-messenger;     
-    color: #00b2ff;
-  }
-}
-.icon-fb_messenger {
-  &:before {
-    content: $icon-fb_messenger; 
+    content: $icon-messenger; 
   }
 }
 .icon-skype {
