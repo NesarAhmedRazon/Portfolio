@@ -13,7 +13,7 @@ $breaks: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px, xd: 1
 $ms: ('em', 'rem');
 $weights: ("thin": 100, "lit": 300, "reg": 400, "mid": 500, "bold": 600, "bolder": 700, "fat": 800, "xfat": 900);
 
-$tests:("round": ('border-radius'), 'font': ('font-size'), width: ('width'), height: ('height'), lh: ('line-height'), mrb: ('margin-bottom'), mre: ('margin-right'), mry: ('margin-top', 'margin-bottom'));
+$tests:("round": ('border-radius'), 'font': ('font-size'), width: ('width'), height: ('height'), lh: ('line-height'), mrb: ('margin-bottom'), mrt: ('margin-top'), mre: ('margin-right'), mry: ('margin-top', 'margin-bottom'));
 
 $clss: (wid : ('width', '%', 1, 100, 10));
 
