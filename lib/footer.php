@@ -15,11 +15,9 @@
                                     <div
                                         class="font-em-6 d-md-table-cell text-md-end text-center text-black-2 align-middle">
                                         <a class="mx-1 text-fh-6 icon-messenger bg-off p-0" target="_blank"
-                                            href="https://bit.ly/3an5aRd"></a>
-                                        <a class="mx-1 text-fh-6 icon-skype bg-off p-0" target="_blank"
-                                            href="https://bit.ly/3DqbsvR"></a>
-                                        <a class="mx-1 text-fh-6 icon-whatsapp bg-off p-0" target="_blank"
-                                            href="https://bit.ly/3loLd2T"></a>
+                                            href="#"></a>
+                                        <a class="mx-1 text-fh-6 icon-skype bg-off p-0" target="_blank" href="#"></a>
+                                        <a class="mx-1 text-fh-6 icon-whatsapp bg-off p-0" target="_blank" href="#"></a>
                                     </div>
                                 </div>
                             </div>

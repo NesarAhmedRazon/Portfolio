@@ -17,19 +17,19 @@
                             class="font-em-7 font-md-em-5 g-2 justify-content-center justify-content-md-start row row-cols-auto social text-white">
                             <div class="col-12 text-off font-em-2 text-bold mrb-em-1 d-md-none">Follow Me</div>
                             <div class="col">
-                                <a class="icon-facebook" target="_blank" href="https://bit.ly/3an5aRd"></a>
+                                <a class="icon-facebook" target="_blank" href="#"></a>
                             </div>
                             <div class="col">
-                                <a class="icon-upwork" target="_blank" href="https://bit.ly/3DqbsvR"></a>
+                                <a class="icon-upwork" target="_blank" href="#"></a>
                             </div>
                             <div class="col">
-                                <a class="icon-twitter" target="_blank" href="https://bit.ly/3loLd2T"></a>
+                                <a class="icon-twitter" target="_blank" href="#"></a>
                             </div>
                             <div class="col">
-                                <a class="icon-linkedin" target="_blank" href="https://bit.ly/3lqZbkT"></a>
+                                <a class="icon-linkedin" target="_blank" href="#"></a>
                             </div>
                             <div class="col">
-                                <a class="icon-github" target="_blank" href="https://bit.ly/3lqZbkT"></a>
+                                <a class="icon-github" target="_blank" href="#"></a>
                             </div>
                         </div>
                     </div>
