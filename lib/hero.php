@@ -36,7 +36,7 @@
                     <div class="container px-0">
                         <div class="row">
                             <div class="col-12">
-                                <a href="#" target="_self"
+                                <a href="/contact.php" target="_self"
                                     class="bg-theme-3 btn font-em-3 font-md-em-2 px-4 round-em-2 shadow text-lh-10 wid-100 wid-md-auto">Send
                                     Request</a>
                             </div>

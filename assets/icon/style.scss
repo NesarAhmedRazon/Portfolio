@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x5z33y');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?x5z33y#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?x5z33y') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?x5z33y') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?x5z33y##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wnavwd');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?wnavwd#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?wnavwd') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?wnavwd') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?wnavwd##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-bitbucket {
+  &:before {
+    content: $icon-bitbucket; 
+  }
+}
+.icon-instagram {
+  &:before {
+    content: $icon-instagram; 
+  }
+}
 .icon-gitlab {
   &:before {
     content: $icon-gitlab; 
