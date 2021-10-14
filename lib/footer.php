@@ -5,9 +5,9 @@
                 <div class="col-11 order-md-last">
                     <div class="font-lg-em-4 font-md-em-3 g-1 row row-cols-1 row-cols-md-3">
                         <div class="col mb-3 mb-md-0 text-center">
-                            <a href="mailto:nesar@razonit.com"
+                            <a href="mailto:foo@example.com"
                                 class="align-items-center d-flex justify-content-center justify-content-md-start text-decoration-none">
-                                <i class="icon-mail pe-2"></i>nesar@razonit.com</a>
+                                <i class="icon-mail pe-2"></i>foo@example.com</a>
                         </div>
                         <div class="col mb-3 mb-md-0 order-md-last">
                             <div class="d-block d-md-table font-em- font-em-5 social w-100">
@@ -31,3 +31,15 @@
         </div>
     </div>
 </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="assets/slick/slick.min.js"></script>
+<script type="text/javascript" src="assets/app.js"></script>
+</body>
+
+</html>
