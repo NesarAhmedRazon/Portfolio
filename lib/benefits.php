@@ -40,7 +40,7 @@
                 <div class="col">
                     <div class="bg-transparent border-0 card mb-4 text-center">
                         <img class="align-self-center bg-white-6 card-img-top mb-2 p-3 rounded-circle width-11 width-em-19"
-                            src="assets/icon/collaborative​.svg" alt="Card image cap">
+                            src="assets/icon/collaborative.svg" alt="Card image cap">
                         <div class="card-body p-lg-2 pt-lg-3">
                             <h5 class="card-title font-em-6 font-lg-em-5 mrb-em-1">Collaborative​
                             </h5>
