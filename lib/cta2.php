@@ -8,7 +8,7 @@
                         class="font-em-9 font-lg-em-9 font-md-em-7 font-sm-em-8 font-xxl-em-15 m-sm-0 mb-5 text-bold text-center text-md-end text-md-nowrap text-white text-wrap">
                         Interested working with me?
                     </h2>
-                    <a type="button"
+                    <a href="contact.php"
                         class="bg-theme-3 bg-white-1 btn font-em-5 font-lg-em-5 font-xl-em-5 font-xxl-em-5 lh-lg ms-lg-3 ms-md-3 ms-xl-3 ms-xxl-5 px-4 px-lg-4 px-xl-4 px-xxl-5 py-xl-2 py-xxl-3 round-em-2 shadow text-bold text-nowrap">Send
                         Request</a>
                 </div>
